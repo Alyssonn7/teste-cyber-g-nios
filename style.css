@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:wght@400;500&display=swap');
+
+
+/* Na estilização usei tags básicas do CSS! Na estilização usei tags básicas do CSS! E com ajuda do FIGMA 
+usei alguns códigos que apresentam no protótipo.*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho-1 {
+    background: url(./image/luca-david-HjXbVnnITvE-unsplash\ 1\ \(2\).svg);
+    background-repeat: no-repeat;
+    width: 1263px;
+    height: 700px;
+}
+
+.cabecalho-menu {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 130px;
+    padding: 20px;
+}
+
+.cabecalho-menu-item {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.h1-texto {
+    font-family: bebas-kai,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #EBEBEB;
+    font-size: 203.96px;
+    text-align: center;
+    gap: 5px;
+    line-height: 135%
+}
+
+
+.secao-de-conteudos-1 {
+    background: #E5E5E5;;
+    text-align: center;
+    justify-content:space-around;
+    padding:290px;
+}
+
+.mustang-1 {
+    background: url(./image/Mustang1.svg);
+    position: absolute;
+    width: 228.21px;
+    height: 171px;
+    left: 120px;
+    top: 746px;
+}
+
+.grupo-4 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    position: absolute;
+    width: 300px;
+    height: 362px;
+    left: 80px;
+    top: 860px;
+}
+
+.grupo-5 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    position: absolute;
+    width: 281px;
+    height: 362px;
+    left: 490px;
+    top: 860px; 
+}
+
+.grupo-6 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    position: absolute;
+    width: 281px;
+    height: 362px;
+    left: 900px;
+    top: 860px;
+}
+
+.grupo-22 {
+    position: absolute;
+    width: 273px;
+    height: 4px;
+    left: 495px;
+    top: 1235px;
+}
+
+.vetor-1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 25px;
+    top: 997px;
+}
+
+.vetor-2 {
+    position: absolute;
+    left: 1200px;
+    right: 20px;
+    top: 997px;
+}
+
+.mustang-2 {
+    background: url(./image/Mustang2.svg);
+    position: absolute;
+    width: 222.98px;
+    height: 111.68px;
+    left: 530px;
+    top: 784px;
+}
+
+.mustang-3 {
+    background: url(./image/Mustang3.svg);
+    position: absolute;
+    width: 394px;
+    height: 272.3px;
+    left: 869px;
+    top: 633px;
+}
+
+
+.roda-pe {
+    background: url(./image/Capa-final.svg);
+    background-repeat: no-repeat;
+    width: 1263px;
+    height: 543px;
+}
+
+.conteudo-final {
+    position: absolute;
+    width: 773px;
+    height: 543px;
+    left: 490px;
+    top: 1279px;
+    background: linear-gradient(270deg, rgba(29, 37, 39, 0.6) 0%, rgba(29, 37, 39, 0.6) 24.79%, rgba(29, 37, 39, 0.534) 54.48%, rgba(29, 37, 39, 0.006) 78.67%, rgba(29, 37, 39, 0) 100%);
+    backdrop-filter: blur(1px);
+}
+
+.texto-final-1 {
+    position: absolute;
+    width: 348px;
+    height: 78px;
+    left: 800px;
+    top: 1350px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 56px;
+    line-height: 130%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.texto-final-2 {
+    position: absolute;
+    width: 616px;
+    height: 201px;
+    left: 550px;
+    top: 1440px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.botao-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 96px;
+    gap: 10px;
+    position: absolute;
+    width: 273px;
+    height: 48px;
+    left: 650px;
+    top: 1600px;
+}
+
+
+
+
+
+
+
